@@ -1,0 +1,1 @@
+# DQ.generador.vb6
