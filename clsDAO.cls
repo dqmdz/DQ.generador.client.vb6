@@ -301,7 +301,7 @@ Dim objAtributo As New clsAtributo
         Print #1, ""
         Print #1, "    Set request = New MSXML2.ServerXMLHTTP"
         Print #1, ""
-        Print #1, "    url = " & vUrl & " & " & Chr(34) & LCase(vEndpoint) & "/" & Chr(34) & " & " & LCase(vEndpoint) & "Id"
+        Print #1, "    url = " & vUrl & " & " & Chr(34) & "/" & LCase(vEndpoint) & "/" & Chr(34) & " & " & LCase(vEndpoint) & "Id"
         Print #1, ""
         Print #1, "    request.Open " & Chr(34) & "GET" & Chr(34) & ", url"
         Print #1, "    request.send"
@@ -330,7 +330,7 @@ Dim objAtributo As New clsAtributo
         Print #1, ""
         Print #1, "    Set request = New MSXML2.ServerXMLHTTP"
         Print #1, ""
-        Print #1, "    url = " & vUrl & " & " & Chr(34) & LCase(vEndpoint) & "/" & Chr(34) & " & " & LCase(vEndpoint) & "Id"
+        Print #1, "    url = " & vUrl & " & " & Chr(34) & "/" & LCase(vEndpoint) & "/" & Chr(34) & " & " & LCase(vEndpoint) & "Id"
         Print #1, ""
         Print #1, "    request.Open " & Chr(34) & "DELETE" & Chr(34) & ", url"
         Print #1, "    request.send"
@@ -380,7 +380,7 @@ Dim objAtributo As New clsAtributo
         Print #1, ""
         Print #1, "    Set request = New MSXML2.ServerXMLHTTP"
         Print #1, ""
-        Print #1, "    url = " & vUrl & " & " & Chr(34) & LCase(vEndpoint) & "/" & Chr(34) & " & " & LCase(vEndpoint) & "Id"
+        Print #1, "    url = " & vUrl & " & " & Chr(34) & "/" & LCase(vEndpoint) & "/" & Chr(34) & " & " & LCase(vEndpoint) & "Id"
         Print #1, ""
         Print #1, "    request.Open " & Chr(34) & "GET" & Chr(34) & ", url"
         Print #1, "    request.send"
@@ -418,7 +418,7 @@ Dim objAtributo As New clsAtributo
         Print #1, ""
         Print #1, "    Set request = New MSXML2.ServerXMLHTTP"
         Print #1, ""
-        Print #1, "    url = " & vUrl & " & " & Chr(34) & LCase(vEndpoint) & "/" & Chr(34)
+        Print #1, "    url = " & vUrl & " & " & Chr(34) & "/" & LCase(vEndpoint) & "/" & Chr(34)
         Print #1, ""
         Print #1, "    request.Open " & Chr(34) & "POST" & Chr(34) & ", url"
         Print #1, "    request.setRequestHeader ""Content-Type"", ""application/json"""
@@ -462,7 +462,7 @@ Dim objAtributo As New clsAtributo
         Print #1, ""
         Print #1, "    Set request = New MSXML2.ServerXMLHTTP"
         Print #1, ""
-        Print #1, "    url = " & vUrl & " & " & Chr(34) & LCase(vEndpoint) & "/" & Chr(34) & " & " & LCase(vEndpoint) & "Id"
+        Print #1, "    url = " & vUrl & " & " & Chr(34) & "/" & LCase(vEndpoint) & "/" & Chr(34) & " & " & LCase(vEndpoint) & "Id"
         Print #1, ""
         Print #1, "    request.Open " & Chr(34) & "PUT" & Chr(34) & ", url"
         Print #1, "    request.setRequestHeader ""Content-Type"", ""application/json"""
@@ -522,7 +522,7 @@ Public Sub writeCollectionAll()
         Print #1, ""
         Print #1, "    Set request = New MSXML2.ServerXMLHTTP"
         Print #1, ""
-        Print #1, "    url = " & vUrl & " & " & Chr(34) & LCase(vEndpoint) & "/" & Chr(34)
+        Print #1, "    url = " & vUrl & " & " & Chr(34) & "/" & LCase(vEndpoint) & "/" & Chr(34)
         Print #1, ""
         Print #1, "    request.Open " & Chr(34) & "GET" & Chr(34) & ", url"
         Print #1, "    request.send"
